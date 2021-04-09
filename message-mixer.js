@@ -1,5 +1,9 @@
 // Import the functions from encryptors.js here.
-const encryptors = require('./encryptors.js');
+//ES6:
+//import encryptors from './encryptors.js';
+//CJS:
+const encryptors = require('./encryptors.js').default;
+
 // Encryption Functions
 /////////////////////////////////////////////
 const {caesarCipher, symbolCipher, reverseCipher} = encryptors;

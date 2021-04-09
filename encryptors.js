@@ -59,6 +59,14 @@ const reverseCipher = (sentence) => {
    return words.join(' ');
 };
 
+//ES:
+/*export default {
+  caesarCipher,
+  symbolCipher,
+  reverseCipher
+};*/
+
+//CJS:
 module.exports = {
   caesarCipher,
   symbolCipher,
